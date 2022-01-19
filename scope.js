@@ -31,7 +31,7 @@ function add(first, second) {
 
     }
     // console.log(mood);            Case->1   // ReferenceError: mood is not defined Issue: block
-    // console.log(mood);                Case-> 2  //====>cranky   Issue: global scope leaking
+    // console.log(mood);                Case-> 2  //====>cranky   Issue: local scope leaking
 
     return result;
 }
