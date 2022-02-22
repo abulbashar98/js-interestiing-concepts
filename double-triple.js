@@ -25,7 +25,7 @@ else {
 }
 //=====> condition is false
 
-// NOTE: Reason behind this is (==) compares by doing implicit coercion (https://medium.com/front-end-weekly/implicit-coercion-in-javascript-5077ad5510d). Means it converts to number first implicitly and then compare Variables/properties; For primitive values.
+// NOTE: Reason behind this is (==) compares by doing implicit coercion (https://medium.com/front-end-weekly/implicit-coercion-in-javascript-5077ad5510d). Means it converts booleans and strings to number first implicitly and then compare Variables/properties; For primitive values.
 
 
 // Example:
